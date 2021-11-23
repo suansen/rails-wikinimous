@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+nav > a {
+  color: #777;
+}
+
+nav > a:hover {
+  color: black;
+}

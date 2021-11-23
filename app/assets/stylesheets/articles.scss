@@ -1,0 +1,18 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.steelblue-h {
+  color: steelblue;
+  text-decoration: none;
+  font-size: 2rem;
+  &:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.h-500px {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

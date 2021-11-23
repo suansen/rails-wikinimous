@@ -1,0 +1,13 @@
+<div class="text-center h2 border-bottom pb-3">
+  <%= @article.title %>
+  <%= link_to edit_article_path(@article) do %> <i class="fas fa-pencil-alt"></i> <% end %>
+  <%= link_to article_path(@article),
+            method: :delete,
+            data: { confirm: "Are you sure?" } do %> <i class="far fa-trash-alt"></i></i> <% end %>
+</div>
+<div class="mb-5">
+  <img class="h-500px img-fluid rounded " src="https://source.unsplash.com/random" alt="random">
+</div>
+<div>
+  <p class="text-center"><%= @article.content %></p>
+</div>
